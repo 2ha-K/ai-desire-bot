@@ -1,0 +1,53 @@
+# 🐍 Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 📦 虛擬環境
+.venv/
+env/
+venv/
+
+# 📄 設定檔與憑證
+.env
+*.env
+config.yaml  # 若包含敏感資訊可忽略（或改成 config.template.yaml）
+
+# 🧠 模型權重與推理檔案
+*.gguf
+*.safetensors
+*.bin
+*.pth
+*.pt
+*.ckpt
+
+# 📝 聊天記錄與 log
+logs/
+*.log
+
+# 🔊 音訊檔案
+audio/*.wav
+audio/*.mp3
+audio/*.m4a
+
+# 📂 系統與工具產生檔案
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# 📘 VSCode 設定
+.vscode/
+
+# 🚀 Jupyter Notebook checkpoints（如果有用到）
+.ipynb_checkpoints/
+
+# 🧪 測試輸出暫存（如果有 pytest）
+.coverage
+htmlcov/
+.pytest_cache/
+
+# 📜 安裝產出（如 setup.py）
+build/
+dist/
+*.egg-info/
