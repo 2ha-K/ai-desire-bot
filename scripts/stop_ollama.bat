@@ -1,0 +1,1 @@
+start ollama stop HammerAI/mythomax-l2

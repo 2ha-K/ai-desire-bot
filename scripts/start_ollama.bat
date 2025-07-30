@@ -1,0 +1,1 @@
+start "" ollama run HammerAI/mythomax-l2
